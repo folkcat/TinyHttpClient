@@ -83,7 +83,7 @@ public class TinyHttpClient {
 		return result.toString();
 	}
 
-	private String sendGet(String url, Map<String, String> params,
+	public String sendGet(String url, Map<String, String> params,
 			boolean isAutoDirect, Map<String, String> headers) {
 
 		StringBuilder result = new StringBuilder();
